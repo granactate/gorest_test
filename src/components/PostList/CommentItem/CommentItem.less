@@ -1,0 +1,31 @@
+.CommentItem_container {
+  margin-bottom: 18px;
+}
+
+.CommentItem_card {
+
+  & .ant-card-body {
+    padding: 12px;
+  }
+}
+
+.CommentItem_card_content {
+  display: grid;
+  grid-template-areas: "icon contactInfo" "body body";
+}
+
+
+.CommentItem_card_icon {
+  grid-area: icon;
+}
+
+.CommentItem_card_contact_info {
+  grid-area: contactInfo;
+  font-size: 12px;
+}
+
+.CommentItem_card_body {
+  grid-area: body;
+  font-size: 16px;
+  padding-top: 8px;
+}

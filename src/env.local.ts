@@ -1,0 +1,1 @@
+export const TOKEN_API = ''; // include here your GoRest TOKEN

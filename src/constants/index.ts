@@ -1,0 +1,3 @@
+export const ITEMS_PER_SLICE = 10;
+export const ITEMS_PER_PAGE = 30;
+export const SLICES_PER_PAGE = ITEMS_PER_PAGE / ITEMS_PER_SLICE;
